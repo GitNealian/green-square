@@ -10,5 +10,5 @@ cd $repository_dir
 
 echo "make it green" > $commit_file
 git add .
-git commit -m "commit $count"
+git commit -m "commit `date +"%D"`_$count"
 
