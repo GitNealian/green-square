@@ -11,3 +11,4 @@ echo "make it green" > $commit_file
 git add .
 git commit -m "commit `date +"%D"`"
 git push
+exit 0
