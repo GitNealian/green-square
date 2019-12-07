@@ -1,6 +1,6 @@
 #!/bin/bash
 
-repository_dir=~/green-square
+repository_dir=/home/nealian/green-square
 commits_dir=$repository_dir/commits
 commit_file=$commits_dir/`date +"%Y-%m-%d"`.txt
 
