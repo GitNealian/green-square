@@ -10,5 +10,6 @@ cd $repository_dir
 echo "make it green" > $commit_file
 git add .
 git commit -m "commit `date +"%D"`"
-git push
+# 自动添加主机到knowhosts
+echo "yes\n" | git push
 exit 0
